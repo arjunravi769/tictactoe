@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+#board {
+  display :flex;
+  width: 100vh;
+  height: 100vh;
+  
+  flex-wrap: wrap;
+}
+
+.square{
+width:33.3333vh;
+height:33.3333vh;
+border: 1px solid black;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 65px;
+position: relative;
+}
+
+
+.button{
+  color: blue;
+  width: 70px;
+  height: 30dp;
+  border: 2px solid black;
+  position: absolute;
+  float:right;
+  top: 0px;
+  right: 0px;
+}
+
+.time{
+  position: absolute;
+  float:right;
+  bottom: 0px;
+  right: 0px;
+}
+  
+
+
+.block2 {
+  color: blue;
+  width: 70px;
+  border: 2px solid black;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+#game{
+display:flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+#head{
+  font-size: 25px;
+  padding: 15px;
+}
+
